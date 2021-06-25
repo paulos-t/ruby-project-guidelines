@@ -8,6 +8,7 @@ Bundler.require
 #   database: "db/development.sqlite"
 # )
 
-ActiveRecord::Base.establish_connection(adapter: 'sqlite3', database: 'db/development.db')
+# ActiveRecord::Base.establish_connection(adapter: 'sqlite3', database: 'db/development.db')
+
 # require all files in our lib directory
 require_all 'lib'
