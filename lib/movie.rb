@@ -16,6 +16,7 @@ end
 
 # Read (query methods)
 # Movie.all => returns an array of Movie objects
+# Movie.ids.sample
 # Movie.find(<id>) or Movie.find_by(name: "Hello")
 # Movie.where(year_released: 2010) or Movie.where("year_released > 2012")
 # Movie.minimum(:year_released)
